@@ -1,0 +1,5 @@
+﻿  Level_Tool.cpp
+DirectXTKd.lib(ScreenGrab.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(ScreenGrab.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(WICTextureLoader.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(WICTextureLoader.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(pch.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(pch.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Client.vcxproj -> C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Client.exe

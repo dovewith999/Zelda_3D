@@ -1,0 +1,15 @@
+﻿  VIBuffer_PointInstance.cpp
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(170): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(172): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(173): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(175): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(177): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(178): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(180): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(182): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(183): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(185): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(187): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(188): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Engine.vcxproj -> D:\jusin\Zelda\Framework\Engine\Default\../Bin/Engine.dll
+  Engine.vcxproj -> ../Bin/Engine.pdb (Full PDB)

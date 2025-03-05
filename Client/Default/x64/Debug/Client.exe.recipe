@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Client.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxAnim.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxCube.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxNonAnim.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxNorTex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxPointInstance.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxTex.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

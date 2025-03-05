@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="98.Default">
+      <UniqueIdentifier>{4df6ad82-f155-45c5-806f-5368a5ea872b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{fcc4098d-4d4d-4bb2-be3c-5fffd82925a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Headers">
+      <UniqueIdentifier>{4d737215-7201-4bdd-a061-8e56bc2835d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{f79c1202-5ed2-46c7-9f70-688a16401582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Logo">
+      <UniqueIdentifier>{e7a52a48-4c68-4d4a-bc3f-f1acbc038b42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading">
+      <UniqueIdentifier>{3454500c-e17a-497d-8f35-67a44428a328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\GamePlay">
+      <UniqueIdentifier>{a1af0104-8e17-49bc-bf0a-acf1c3e35ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Loading\Loader">
+      <UniqueIdentifier>{c4a585e4-8014-4baa-a70d-affc236effc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{f5f9fe37-d769-49f2-87b3-b7dbbb787dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\BackGround">
+      <UniqueIdentifier>{81ecac2c-9a5f-4fd3-99e2-b78db3c7d422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.ShaderFiles">
+      <UniqueIdentifier>{86de5bed-9d10-4cae-af4a-d97a1664fc0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Camera">
+      <UniqueIdentifier>{70647be3-d188-4ded-9293-449afb452ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player">
+      <UniqueIdentifier>{879316fa-6872-4831-984c-533051f2fe3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI">
+      <UniqueIdentifier>{a5cd2805-61fd-405b-ad56-f2574f9de717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Logo">
+      <UniqueIdentifier>{b365939b-f9b5-4041-9e04-c517d1dc4e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_GamePlay">
+      <UniqueIdentifier>{825a4ccb-d026-4be3-94b0-d4855999a4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Logo\MainLogo">
+      <UniqueIdentifier>{3bddb7bf-482a-4cbe-99e8-1db8611f6185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Logo\SubLogo">
+      <UniqueIdentifier>{be4aafdb-1325-4392-a106-d62f9260e25b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Logo\TitleLogo">
+      <UniqueIdentifier>{929b6394-0b73-40e3-afa6-e74e678c9221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. ImGui">
+      <UniqueIdentifier>{801e752b-3f77-4186-92ed-9f7aa37224dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Camera\Camera_Logo">
+      <UniqueIdentifier>{2d4f2a6f-1220-4aa9-ade2-d84763276488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Logo\PressStart">
+      <UniqueIdentifier>{46b27cd3-3cd6-4f56-a498-e57030ecf584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_GamePlay\PlayerHp">
+      <UniqueIdentifier>{fe2aa5a8-bc0a-480e-8ee1-b99fb9783095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_GamePlay\Attention">
+      <UniqueIdentifier>{b93009e0-ae1d-4635-b879-3f7c17f46502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_GamePlay\Attention\Cursor">
+      <UniqueIdentifier>{2972babe-efb0-4af0-ae1d-f486f52cc561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_GamePlay\Attention\Blind">
+      <UniqueIdentifier>{cb8f14b6-33f5-4a39-bbbb-b0fa8880e70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Loading">
+      <UniqueIdentifier>{aebbe1ef-2338-4bfa-9a01-17aaa563a006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Loading\BackGround">
+      <UniqueIdentifier>{9205c2f3-b786-439f-a5d8-b24422b8e3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Loading\Loading_Circle">
+      <UniqueIdentifier>{54c9184f-67ab-428f-9d2d-12a8cc0ae71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Loading\Loading_Bar">
+      <UniqueIdentifier>{5d1eda99-beba-490a-a04b-d2f8c7fc7906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item">
+      <UniqueIdentifier>{a43c8ced-dcec-4cee-aecc-c2a3aa2e6ab0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Player">
+      <UniqueIdentifier>{7f9e69c5-f7c4-44f9-9750-000077c15ca6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Monster">
+      <UniqueIdentifier>{a1bf8089-e55c-4bbe-9f9d-0c33734d03ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Player\Sword">
+      <UniqueIdentifier>{75f18233-2b25-475b-bf3e-47e32556df54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Player\Shiled">
+      <UniqueIdentifier>{c83ab80d-ca5d-4a22-ae81-0d0e301fcc57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Monster\Boko">
+      <UniqueIdentifier>{44a2ad87-713a-4824-b055-61f9698d9b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Player\Sword\Sheath">
+      <UniqueIdentifier>{f37330a4-af26-457b-a415-d92be41b54a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Player\Sword\Handle">
+      <UniqueIdentifier>{a9818e1e-4111-49ce-841d-3266fffc6be7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Player\Sword\Blade">
+      <UniqueIdentifier>{a3314e61-f9da-4098-8889-1c8af9f17f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Monster\GndSword">
+      <UniqueIdentifier>{3a8b0c0b-17ad-460f-bc0c-65602d0f3d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Sky">
+      <UniqueIdentifier>{fb373361-7fbf-473a-9798-b8246247a7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. ImGui\Tool">
+      <UniqueIdentifier>{1c537e4d-4731-4629-8f05-59522c4dcb3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. ImGui\ImGui">
+      <UniqueIdentifier>{692068ad-f7cc-45f4-a437-f2a9769fc210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Tool">
+      <UniqueIdentifier>{153c6909-920a-4642-a3f4-e8c5a4939af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Terrain">
+      <UniqueIdentifier>{e95e11ab-6938-4026-b665-8582755d2720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\NavigationAssist">
+      <UniqueIdentifier>{b795329c-fc6c-438f-be21-744840adc43f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\NavigationAssist\PointSphere">
+      <UniqueIdentifier>{40dbd797-88dc-4993-a1c2-38b5c5a40b7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\NPC">
+      <UniqueIdentifier>{a8676e56-4970-4679-9c1c-172a57a6e252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\NPC\Zelda">
+      <UniqueIdentifier>{57ec4dbe-0ca2-40a9-b3a4-969aed4e27e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Dungeon">
+      <UniqueIdentifier>{f49ea0f7-e999-48d5-9356-42a3a6f68b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster">
+      <UniqueIdentifier>{f5c2d6a3-5f92-4c99-9bf4-d2363820bd3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\BossMonster">
+      <UniqueIdentifier>{45dd0842-973e-4404-a6e4-87176521d752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\BossMonster\Collider_Sword">
+      <UniqueIdentifier>{cd2c00f3-ee5f-41db-b8e5-850ac5b0654a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc">
+      <UniqueIdentifier>{11ee13d9-36e7-4f24-b6a1-a8ef428ccf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon">
+      <UniqueIdentifier>{571b4d2d-838e-4790-ace7-3658602b3c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Key">
+      <UniqueIdentifier>{05fc28f7-abc2-4b3d-8f65-f259fd697007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\MagmaRock">
+      <UniqueIdentifier>{32cb7266-f916-4418-bae6-52c648064ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Rock">
+      <UniqueIdentifier>{32573ef3-f901-4e89-a6da-510d46e318bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\WaterPot">
+      <UniqueIdentifier>{4f402a50-19cc-4856-b2ee-2316e5de23a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Cube">
+      <UniqueIdentifier>{add5f74a-844e-478a-b402-434dd9b82506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Cube\Statue">
+      <UniqueIdentifier>{dcb3de7b-1474-4a41-9b1e-dc34ce89593b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Fire_Brazier">
+      <UniqueIdentifier>{9c49c0f0-cc04-4762-9c59-ecd84499668a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Bomb">
+      <UniqueIdentifier>{c7427abc-cc89-4be3-b0be-35325e8b7df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Bomb\Flower">
+      <UniqueIdentifier>{b20e4300-53b0-4493-8740-e7431d62c283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Door">
+      <UniqueIdentifier>{5077959d-1a0d-4811-b5af-a49f082f7794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Door\Lock">
+      <UniqueIdentifier>{91a001d8-73c5-402a-a783-4d807a936ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Cube\Normal">
+      <UniqueIdentifier>{6343c4d1-aae1-49eb-a481-dbb0cd004bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Bridge">
+      <UniqueIdentifier>{90119167-5d2b-497c-b834-ecde86d54029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\TresureBox">
+      <UniqueIdentifier>{22a599b3-256b-4096-83d8-256b49c73ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\WoodPlanks">
+      <UniqueIdentifier>{8b6d1093-050f-4076-89db-4010d384ff28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Fire">
+      <UniqueIdentifier>{7d803377-d4bd-4f28-ab99-3e9686852187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Trigger">
+      <UniqueIdentifier>{20721f92-bc8a-46fb-a04d-f07c52391d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Trigger\Trigger_Ladder">
+      <UniqueIdentifier>{f342b599-1846-4a7a-b5cc-bbae95ff3a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Trigger\Trigger_Wall">
+      <UniqueIdentifier>{9c654ae5-8de8-418a-b809-0fb2bb2e9a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Trigger\Trigger_Hang">
+      <UniqueIdentifier>{e3f18d7a-aef3-4ee5-b4c7-157b31e7da55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Dungeon\SeamLess">
+      <UniqueIdentifier>{0a82a913-f7ba-40fa-8a89-7e6953e41c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\Magma">
+      <UniqueIdentifier>{c1446d4f-17c5-421b-9a72-2ebc93409c49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\MagmaZet">
+      <UniqueIdentifier>{bfeb93e0-9789-4fc3-8502-1781f1369c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage">
+      <UniqueIdentifier>{6d77f46d-7768-4644-b229-eb3894425e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\OutSet_Island">
+      <UniqueIdentifier>{235745d4-f4bd-44d8-9150-567d8cfec8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Ganon%27s_Tower">
+      <UniqueIdentifier>{d34b63d2-2679-4d6a-aacf-dd3ecfda9599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island">
+      <UniqueIdentifier>{126c7a76-787e-44bd-8f44-d77e4937bb44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon">
+      <UniqueIdentifier>{1590954e-3008-41ca-a3be-c684c908d06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_0">
+      <UniqueIdentifier>{b91e124d-db5b-40a5-95cc-61412b2dda9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_1">
+      <UniqueIdentifier>{df8ed807-506e-4636-a0ee-32fc97ac62ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_2">
+      <UniqueIdentifier>{284e36a7-be91-46d1-bb79-94e116c39721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_3">
+      <UniqueIdentifier>{974e1ce9-aae2-4bfb-bf22-8efd61b8c8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_4">
+      <UniqueIdentifier>{896895de-c159-4353-9d72-e3ceb9842dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_5_OutSide">
+      <UniqueIdentifier>{96b37d4d-3204-458a-a6fa-f3472b7070d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_6">
+      <UniqueIdentifier>{ccd5f345-d087-4ede-875e-5ff307f22c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Camera\Camera_Tool">
+      <UniqueIdentifier>{10108274-c51c-4d15-9e8f-4caa7ef0d2bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_10">
+      <UniqueIdentifier>{a873483d-b6a8-472b-9f69-4b4cc5df2a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_9">
+      <UniqueIdentifier>{570f73c7-a0a8-42b3-88d5-38698dd03ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_8">
+      <UniqueIdentifier>{13247785-705f-4a88-8a16-f6b81b6887f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Dungeon\Room_7">
+      <UniqueIdentifier>{a478c8cf-ebe7-438f-b449-6ffc7e804111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon_Final">
+      <UniqueIdentifier>{bcf0ac58-7cc3-4cd7-9bcd-cc2507d31c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon_Final\WoodDoor">
+      <UniqueIdentifier>{6ce38100-e707-4422-9c2f-2c0d34565017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon_Final\StoneBridge">
+      <UniqueIdentifier>{5a82851f-741a-4d9e-80e1-3b80f1712f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Dungeon_Final">
+      <UniqueIdentifier>{dcfcb5a7-015b-47ea-834d-186ce732c6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\Boss">
+      <UniqueIdentifier>{359e728b-8898-446a-bfa0-fc160051d503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\TresureBox\Short">
+      <UniqueIdentifier>{04d1e3bb-cfdc-4902-b874-512462c5dbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Stage\Dragon_Island\Room_Final">
+      <UniqueIdentifier>{d937bc6e-5f21-4430-b745-699134be1c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Item\Npc">
+      <UniqueIdentifier>{93adabd4-16fb-491f-ba36-6d5bfe988ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Camera\Camera_Player">
+      <UniqueIdentifier>{8c54dfe4-6bbe-44a2-a355-3c12f9cdd17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Trigger\Trigger_Boss">
+      <UniqueIdentifier>{0f233dc9-8e62-4547-a5be-89c2ca526e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Logo\BackGround">
+      <UniqueIdentifier>{9d09e6d9-5c6c-4f88-9ae5-3b0683b2f306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_GamePlay\BlackOut">
+      <UniqueIdentifier>{3833eb13-1399-4427-9229-57d43d7e0c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Effect">
+      <UniqueIdentifier>{cdd8a0d1-7f4f-4003-a3ab-b544181b5559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Effect\Particle_Bomb">
+      <UniqueIdentifier>{514f10f1-a737-44d2-8127-345121e01561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\UI\Level_Dungeon_Final">
+      <UniqueIdentifier>{954a6e74-49a6-42a8-a937-2761c3f3467a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Etc\Dungeon\WoodPlanks\Broken">
+      <UniqueIdentifier>{b1bbe589-c50e-4113-be31-85e8711891b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>98.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>99.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Loader.h">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Levels\Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Levels\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\BackGround.h">
+      <Filter>02.GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_MainLogo.h">
+      <Filter>02.GameObject\UI\Level_Logo\MainLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_TitleLogo.h">
+      <Filter>02.GameObject\UI\Level_Logo\TitleLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_SubLogo.h">
+      <Filter>02.GameObject\UI\Level_Logo\SubLogo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Logo.h">
+      <Filter>02.GameObject\Camera\Camera_Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PressStart.h">
+      <Filter>02.GameObject\UI\Level_Logo\PressStart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_PlayerHp.h">
+      <Filter>02.GameObject\UI\Level_GamePlay\PlayerHp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BossMonster.h">
+      <Filter>02.GameObject\Monster\BossMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Zelda.h">
+      <Filter>02.GameObject\NPC\Zelda</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage_OutSet.h">
+      <Filter>02.GameObject\Stage\OutSet_Island</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Bin\ShaderFiles\Shader_Defines.hpp">
+      <Filter>97.ShaderFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LoadingCircle.h">
+      <Filter>02.GameObject\UI\Level_Loading\Loading_Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_AttentionBar.h">
+      <Filter>02.GameObject\UI\Level_GamePlay\Attention\Blind</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage_GTower.h">
+      <Filter>02.GameObject\Stage\Ganon%27s_Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item_Sheath.h">
+      <Filter>02.GameObject\Item\Player\Sword\Sheath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item_SwordHandle.h">
+      <Filter>02.GameObject\Item\Player\Sword\Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item_Blade.h">
+      <Filter>02.GameObject\Item\Player\Sword\Blade</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Player.h">
+      <Filter>02.GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_AttentionCursor.h">
+      <Filter>02.GameObject\UI\Level_GamePlay\Attention\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Player.h">
+      <Filter>02.GameObject\Camera\Camera_Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item_GndSword.h">
+      <Filter>02.GameObject\Item\Monster\GndSword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Sky.h">
+      <Filter>02.GameObject\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Stage_Dragon.h">
+      <Filter>02.GameObject\Stage\Dragon_Island</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Tool.h">
+      <Filter>96. ImGui\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item_Shield.h">
+      <Filter>02.GameObject\Item\Player\Shiled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imconfig.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_impl_dx11.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_impl_win32.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_internal.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_rectpack.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_textedit.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_truetype.h">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Collider_GndSword.h">
+      <Filter>02.GameObject\Monster\BossMonster\Collider_Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Tool.h">
+      <Filter>01.Levels\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Camera_Tool.h">
+      <Filter>02.GameObject\Camera\Camera_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Point_Sphere.h">
+      <Filter>02.GameObject\NavigationAssist\PointSphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room0.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_0</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room1.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Magma.h">
+      <Filter>02.GameObject\Etc\Dungeon\Magma</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\MagmaZet.h">
+      <Filter>02.GameObject\Etc\Dungeon\MagmaZet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LoadingBackGround.h">
+      <Filter>02.GameObject\UI\Level_Loading\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Monster.h">
+      <Filter>02.GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Dungeon.h">
+      <Filter>01.Levels\Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room2.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room3.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room4.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room5_OutSide.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_5_OutSide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_FireBrazier.h">
+      <Filter>02.GameObject\Etc\Dungeon\Fire_Brazier</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Door.h">
+      <Filter>02.GameObject\Etc\Dungeon\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Lock.h">
+      <Filter>02.GameObject\Etc\Dungeon\Door\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_TresureBox.h">
+      <Filter>02.GameObject\Etc\Dungeon\TresureBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain.h">
+      <Filter>02.GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Cube.h">
+      <Filter>02.GameObject\Etc\Dungeon\Cube\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Key.h">
+      <Filter>02.GameObject\Etc\Dungeon\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Rock.h">
+      <Filter>02.GameObject\Etc\Dungeon\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_MagRock.h">
+      <Filter>02.GameObject\Etc\Dungeon\MagmaRock</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_WaterPot.h">
+      <Filter>02.GameObject\Etc\Dungeon\WaterPot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_WoodPlanks.h">
+      <Filter>02.GameObject\Etc\Dungeon\WoodPlanks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Bomb.h">
+      <Filter>02.GameObject\Etc\Dungeon\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_BFlower.h">
+      <Filter>02.GameObject\Etc\Dungeon\Bomb\Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Fire.h">
+      <Filter>02.GameObject\Etc\Dungeon\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_StatueCube.h">
+      <Filter>02.GameObject\Etc\Dungeon\Cube\Statue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item_Boko.h">
+      <Filter>02.GameObject\Item\Monster\Boko</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_Bridge.h">
+      <Filter>02.GameObject\Etc\Dungeon\Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Trigger_Ladder.h">
+      <Filter>02.GameObject\Trigger\Trigger_Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\SeamLessLoader.h">
+      <Filter>01.Levels\Dungeon\SeamLess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room6.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_6</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room7.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_7</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room8.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room9.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_Room10.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Dungeon_RoomFinal.h">
+      <Filter>02.GameObject\Stage\Dragon_Island\Room_Final</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_WoodDoor.h">
+      <Filter>02.GameObject\Etc\Dungeon_Final\WoodDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_StoneBridge.h">
+      <Filter>02.GameObject\Etc\Dungeon_Final\StoneBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Dungeon_Final.h">
+      <Filter>01.Levels\Dungeon_Final</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_TresureBoxShort.h">
+      <Filter>02.GameObject\Etc\Dungeon\TresureBox\Short</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Item_Bow.h">
+      <Filter>02.GameObject\Item\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Trigger_Boss.h">
+      <Filter>02.GameObject\Trigger\Trigger_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_LogoBackGround.h">
+      <Filter>02.GameObject\UI\Level_Logo\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_BlackOut.h">
+      <Filter>02.GameObject\UI\Level_GamePlay\BlackOut</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Particle_Bomb.h">
+      <Filter>02.GameObject\Effect\Particle_Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_End.h">
+      <Filter>02.GameObject\UI\Level_Dungeon_Final</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Object_WoodPlanks_Broken.h">
+      <Filter>02.GameObject\Etc\Dungeon\WoodPlanks\Broken</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>98.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Loader.cpp">
+      <Filter>01.Levels\Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Levels\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Levels\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\BackGround.cpp">
+      <Filter>02.GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Player.cpp">
+      <Filter>02.GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_MainLogo.cpp">
+      <Filter>02.GameObject\UI\Level_Logo\MainLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_TitleLogo.cpp">
+      <Filter>02.GameObject\UI\Level_Logo\TitleLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_SubLogo.cpp">
+      <Filter>02.GameObject\UI\Level_Logo\SubLogo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Logo.cpp">
+      <Filter>02.GameObject\Camera\Camera_Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PressStart.cpp">
+      <Filter>02.GameObject\UI\Level_Logo\PressStart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_PlayerHp.cpp">
+      <Filter>02.GameObject\UI\Level_GamePlay\PlayerHp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BossMonster.cpp">
+      <Filter>02.GameObject\Monster\BossMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Zelda.cpp">
+      <Filter>02.GameObject\NPC\Zelda</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage_OutSet.cpp">
+      <Filter>02.GameObject\Stage\OutSet_Island</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_LoadingBackGround.cpp">
+      <Filter>02.GameObject\UI\Level_Loading\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LoadingCircle.cpp">
+      <Filter>02.GameObject\UI\Level_Loading\Loading_Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_AttentionBar.cpp">
+      <Filter>02.GameObject\UI\Level_GamePlay\Attention\Blind</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage_GTower.cpp">
+      <Filter>02.GameObject\Stage\Ganon%27s_Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item_Sheath.cpp">
+      <Filter>02.GameObject\Item\Player\Sword\Sheath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item_SwordHandle.cpp">
+      <Filter>02.GameObject\Item\Player\Sword\Handle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item_Blade.cpp">
+      <Filter>02.GameObject\Item\Player\Sword\Blade</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item_Shield.cpp">
+      <Filter>02.GameObject\Item\Player\Shiled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_AttentionCursor.cpp">
+      <Filter>02.GameObject\UI\Level_GamePlay\Attention\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Player.cpp">
+      <Filter>02.GameObject\Camera\Camera_Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item_GndSword.cpp">
+      <Filter>02.GameObject\Item\Monster\GndSword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Sky.cpp">
+      <Filter>02.GameObject\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Stage_Dragon.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Tool.cpp">
+      <Filter>96. ImGui\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui.cpp">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_demo.cpp">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_draw.cpp">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_impl_dx11.cpp">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_impl_win32.cpp">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_tables.cpp">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_widgets.cpp">
+      <Filter>96. ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Collider_GndSword.cpp">
+      <Filter>02.GameObject\Monster\BossMonster\Collider_Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Tool.cpp">
+      <Filter>01.Levels\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Camera_Tool.cpp">
+      <Filter>02.GameObject\Camera\Camera_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain.cpp">
+      <Filter>02.GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Point_Sphere.cpp">
+      <Filter>02.GameObject\NavigationAssist\PointSphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room0.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_0</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room1.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Magma.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Magma</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\MagmaZet.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\MagmaZet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Dungeon.cpp">
+      <Filter>01.Levels\Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room2.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room3.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room4.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room5_OutSide.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_5_OutSide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_StatueCube.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Cube\Statue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_FireBrazier.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Fire_Brazier</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Lock.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Door\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Door.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_TresureBox.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\TresureBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Cube.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Cube\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Key.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Rock.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_MagRock.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\MagmaRock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_WaterPot.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\WaterPot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Bridge.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_WoodPlanks.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\WoodPlanks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Bomb.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_BFlower.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Bomb\Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_Fire.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item_Boko.cpp">
+      <Filter>02.GameObject\Item\Monster\Boko</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Trigger_Ladder.cpp">
+      <Filter>02.GameObject\Trigger\Trigger_Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\SeamLessLoader.cpp">
+      <Filter>01.Levels\Dungeon\SeamLess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Levels\Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room6.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room7.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room8.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_8</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room9.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_Room10.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Dungeon\Room_10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Dungeon_RoomFinal.cpp">
+      <Filter>02.GameObject\Stage\Dragon_Island\Room_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_WoodDoor.cpp">
+      <Filter>02.GameObject\Etc\Dungeon_Final\WoodDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_StoneBridge.cpp">
+      <Filter>02.GameObject\Etc\Dungeon_Final\StoneBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Dungeon_Final.cpp">
+      <Filter>01.Levels\Dungeon_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_TresureBoxShort.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\TresureBox\Short</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Item_Bow.cpp">
+      <Filter>02.GameObject\Item\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Trigger_Boss.cpp">
+      <Filter>02.GameObject\Trigger\Trigger_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Monster.cpp">
+      <Filter>02.GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_LogoBackGround.cpp">
+      <Filter>02.GameObject\UI\Level_Logo\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_BlackOut.cpp">
+      <Filter>02.GameObject\UI\Level_GamePlay\BlackOut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Particle_Bomb.cpp">
+      <Filter>02.GameObject\Effect\Particle_Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_End.cpp">
+      <Filter>02.GameObject\UI\Level_Dungeon_Final</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Object_WoodPlanks_Broken.cpp">
+      <Filter>02.GameObject\Etc\Dungeon\WoodPlanks\Broken</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>98.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>98.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>98.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNorTex.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxNonAnim.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnim.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPointInstance.hlsl">
+      <Filter>97.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

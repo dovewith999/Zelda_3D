@@ -1,0 +1,96 @@
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see D:\jusin\Zelda\Framework\Engine\Bin\Shader_Navigation.cso
+  Animation.cpp
+  Base.cpp
+  Camera.cpp
+  Cell.cpp
+  Channel.cpp
+  Collider.cpp
+..\Private\Collider.cpp(151): error C2039: 'Render': 'Engine::CCollider'의 멤버가 아닙니다.
+  d:\jusin\zelda\framework\engine\private\..\Public\Collider.h(5): note: 'Engine::CCollider' 선언을 참조하십시오.
+..\Private\Collider.cpp(156): error C2065: 'm_pBasicEffect': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(156): error C2227: '->SetView' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  ..\Private\Collider.cpp(156): note: 'unknown-type' 형식입니다.
+..\Private\Collider.cpp(157): error C2065: 'm_pBasicEffect': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(157): error C2227: '->SetProjection' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  ..\Private\Collider.cpp(157): note: 'unknown-type' 형식입니다.
+..\Private\Collider.cpp(159): error C2065: 'm_pDeviceContext': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(159): error C2227: '->IASetInputLayout' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  ..\Private\Collider.cpp(159): note: 'unknown-type' 형식입니다.
+..\Private\Collider.cpp(159): error C2065: 'm_pInputLayout': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(161): error C2065: 'm_pBasicEffect': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(161): error C2227: '->Apply' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  ..\Private\Collider.cpp(161): note: 'unknown-type' 형식입니다.
+..\Private\Collider.cpp(161): error C2065: 'm_pDeviceContext': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(163): error C2065: 'm_bIsCollision': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(163): warning C4805: '==': 연산에 'unknown-type' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+..\Private\Collider.cpp(165): error C2065: 'm_pBatch': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(165): error C2227: '->Begin' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  ..\Private\Collider.cpp(165): note: 'unknown-type' 형식입니다.
+..\Private\Collider.cpp(167): error C2065: 'm_eType': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(168): error C2050: switch 식이 정수 계열이 아닙니다.
+..\Private\Collider.cpp(169): error C2065: 'TYPE_AABB': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(169): error C2131: 식이 상수로 계산되지 않았습니다.
+  ..\Private\Collider.cpp(169): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  ..\Private\Collider.cpp(169): note: 'TYPE_AABB' 사용량 참조
+..\Private\Collider.cpp(170): error C2065: 'm_pBatch': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(170): error C2065: 'm_pAABB_World': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(172): error C2065: 'TYPE_OBB': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(172): error C2131: 식이 상수로 계산되지 않았습니다.
+  ..\Private\Collider.cpp(172): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  ..\Private\Collider.cpp(172): note: 'TYPE_OBB' 사용량 참조
+..\Private\Collider.cpp(173): error C2065: 'm_pBatch': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(173): error C2065: 'm_pOBB_World': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(175): error C2065: 'TYPE_SPHERE': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(175): error C2131: 식이 상수로 계산되지 않았습니다.
+  ..\Private\Collider.cpp(175): note: 비상수 인수 또는 비상수 기호를 참조하여 실패했습니다.
+  ..\Private\Collider.cpp(175): note: 'TYPE_SPHERE' 사용량 참조
+..\Private\Collider.cpp(176): error C2065: 'm_pBatch': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(176): error C2065: 'm_pSPHERE_World': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(180): error C2065: 'm_pBatch': 선언되지 않은 식별자입니다.
+..\Private\Collider.cpp(180): error C2227: '->End' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+  ..\Private\Collider.cpp(180): note: 'unknown-type' 형식입니다.
+..\Private\Collider.cpp(169): error C2051: case 식이 상수가 아닙니다.
+..\Private\Collider.cpp(172): error C2051: case 식이 상수가 아닙니다.
+..\Private\Collider.cpp(175): error C2051: case 식이 상수가 아닙니다.
+..\Private\Collider.cpp(178): warning C4060: switch문에 'case' 또는 'default' 레이블이 없습니다.
+  Collider_Manager.cpp
+  Component.cpp
+  Component_Manager.cpp
+  DebugDraw.cpp
+  GameInstance.cpp
+..\Private\GameInstance.cpp(161): warning C4244: 'return': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameObject.cpp
+  Graphic_Device.cpp
+  HierarchyNode.cpp
+  Input_Device.cpp
+  LandObject.cpp
+  Layer.cpp
+  Level.cpp
+  Level_Manager.cpp
+  Light.cpp
+  컴파일하고 있습니다...
+  Light_Manager.cpp
+  MeshContainer.cpp
+  Model.cpp
+..\private\Model.cpp(350): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Navigation.cpp
+..\Private\Navigation.cpp(51): warning C4267: '인수': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object_Manager.cpp
+  PipeLine.cpp
+  Renderer.cpp
+  Shader.cpp
+  Texture.cpp
+  Timer.cpp
+  Timer_Manager.cpp
+  Transform.cpp
+..\private\Transform.cpp(115): warning C4244: '인수': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UIObject.cpp
+  VIBuffer.cpp
+  VIBuffer_Cube.cpp
+  VIBuffer_Rect.cpp
+  VIBuffer_Terrain.cpp
+..\Private\VIBuffer_Terrain.cpp(57): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_Triangle.cpp
+  Engine_Struct.cpp
