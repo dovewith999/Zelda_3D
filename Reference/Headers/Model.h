@@ -96,6 +96,7 @@ private: // Animation을 저장하기 위한 Vector
 
 private:
 	_float m_fTimeAcc = 0.f;
+	const _uint SEPARATE_BONE_DEPTH = 5;
 
 private: // HierarchyNode를 저장하기 위한 벡터
 	vector<CHierarchyNode*> m_BodyHierarchyNodes; // 상체뼈를 저장하기 위한 벡터

@@ -59,7 +59,6 @@ protected:
 	_uint						m_iNumIndicesPerPrimitive = 0;
 	_uint						m_iIndicesStride = 0;
 
-
 	void*						m_pIndices = nullptr;
 
 protected:

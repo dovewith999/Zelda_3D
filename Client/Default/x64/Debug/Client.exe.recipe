@@ -2,27 +2,27 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Client.exe</FullPath>
+      <FullPath>C:\Workspace\Git\Zelda_3D\Client\Bin\Client.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxAnim.cso</FullPath>
+      <FullPath>C:\Workspace\Git\Zelda_3D\Client\Bin\Shader_VtxAnim.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxCube.cso</FullPath>
+      <FullPath>C:\Workspace\Git\Zelda_3D\Client\Bin\Shader_VtxCube.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxNonAnim.cso</FullPath>
+      <FullPath>C:\Workspace\Git\Zelda_3D\Client\Bin\Shader_VtxNonAnim.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxNorTex.cso</FullPath>
+      <FullPath>C:\Workspace\Git\Zelda_3D\Client\Bin\Shader_VtxNorTex.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxPointInstance.cso</FullPath>
+      <FullPath>C:\Workspace\Git\Zelda_3D\Client\Bin\Shader_VtxPointInstance.cso</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\dovew\Downloads\Zelda\Zelda\Framework\Client\Bin\Shader_VtxTex.cso</FullPath>
+      <FullPath>C:\Workspace\Git\Zelda_3D\Client\Bin\Shader_VtxTex.cso</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />

@@ -1,15 +1,106 @@
-﻿  VIBuffer_PointInstance.cpp
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(170): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(172): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(173): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(175): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(177): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(178): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(180): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(182): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(183): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(185): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(187): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\jusin\zelda\framework\engine\private\vibuffer_pointinstance.cpp(188): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Engine.vcxproj -> D:\jusin\Zelda\Framework\Engine\Default\../Bin/Engine.dll
-  Engine.vcxproj -> ../Bin/Engine.pdb (Full PDB)
+﻿FXC : warning X4717: Effects deprecated for D3DCompiler_47
+C:\Workspace\Git\Zelda_3D\Engine\Bin\ShaderFiles\Shader_Deferred.hlsl(117,2-138): warning X3206: implicit truncation of vector type
+  
+  compilation object save succeeded; see C:\Workspace\Git\Zelda_3D\Engine\Bin\Shader_Deferred.cso
+FXC : warning X4717: Effects deprecated for D3DCompiler_47
+  
+  compilation object save succeeded; see C:\Workspace\Git\Zelda_3D\Engine\Bin\Shader_Navigation.cso
+  Animation.cpp
+  Base.cpp
+  Camera.cpp
+  Cell.cpp
+  Channel.cpp
+  Collider.cpp
+  Collider_Manager.cpp
+  Collision_Thread.cpp
+  Component.cpp
+  Component_Manager.cpp
+  DebugDraw.cpp
+  Frustum.cpp
+  GameInstance.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Private\GameInstance.cpp(182,44): warning C4244: 'return': 'Engine::_double'에서 'Engine::_float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameObject.cpp
+  Graphic_Device.cpp
+  HierarchyNode.cpp
+  Input_Device.cpp
+  LandObject.cpp
+  Layer.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Public\Layer.h(27,28): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '../Private/Layer.cpp'을(를) 컴파일하는 중)
+  
+  Level.cpp
+  코드를 생성하고 있습니다...
+C:\Workspace\Git\Zelda_3D\Engine\Private\GameInstance.cpp(199): warning C4172: 지역 변수 또는 임시의 주소를 반환하고 있습니다.
+  컴파일하고 있습니다...
+  Level_Manager.cpp
+  Light.cpp
+  Light_Manager.cpp
+  MeshContainer.cpp
+  Model.cpp
+C:\Workspace\Git\Zelda_3D\Engine\private\Model.cpp(592,53): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Navigation.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Private\Navigation.cpp(61,82): warning C4267: '인수': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Object_Manager.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Public\Layer.h(27,28): warning C4267: 'return': 'size_t'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '../Private/Object_Manager.cpp'을(를) 컴파일하는 중)
+  
+  Picking.cpp
+  PipeLine.cpp
+  Renderer.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Private\Renderer.cpp(25,6): warning C4244: '인수': 'FLOAT'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\Renderer.cpp(29,6): warning C4244: '인수': 'FLOAT'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\Renderer.cpp(33,6): warning C4244: '인수': 'FLOAT'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\Renderer.cpp(37,6): warning C4244: '인수': 'FLOAT'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\Renderer.cpp(41,6): warning C4244: '인수': 'FLOAT'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\Renderer.cpp(45,6): warning C4244: '인수': 'FLOAT'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RenderTarget.cpp
+  Shader.cpp
+  Sound_Manager.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Private\Sound_Manager.cpp(122,16): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Target_Manager.cpp
+  Texture.cpp
+  Timer.cpp
+  Timer_Manager.cpp
+  Transform.cpp
+C:\Workspace\Git\Zelda_3D\Engine\private\Transform.cpp(164,96): warning C4244: '인수': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  UIObject.cpp
+  VIBuffer.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  VIBuffer_Cube.cpp
+  VIBuffer_PointInstance.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(170,67): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(172,67): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(173,67): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(175,67): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(177,67): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(178,67): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(180,67): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(182,67): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(183,67): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(185,67): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(187,67): warning C4244: '+=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_PointInstance.cpp(188,67): warning C4244: '-=': 'Engine::_double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_Rect.cpp
+  VIBuffer_Terrain.cpp
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_Terrain.cpp(28,20): warning C4244: '=': 'float'에서 'Engine::_uint'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_Terrain.cpp(60,83): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Workspace\Git\Zelda_3D\Engine\Private\VIBuffer_Terrain.cpp(60,68): warning C4244: '인수': 'Engine::_uint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  VIBuffer_Triangle.cpp
+  Engine_Struct.cpp
+  코드를 생성하고 있습니다...
+     ../Bin/Engine.lib 라이브러리 및 ../Bin/Engine.exp 개체를 생성하고 있습니다.
+Effects11d.lib(EffectAPI.obj) : warning LNK4099: '' PDB를 'Effects11d.lib(EffectAPI.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11d.lib(d3dxGlobal.obj) : warning LNK4099: '' PDB를 'Effects11d.lib(d3dxGlobal.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11d.lib(EffectNonRuntime.obj) : warning LNK4099: '' PDB를 'Effects11d.lib(EffectNonRuntime.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11d.lib(EffectLoad.obj) : warning LNK4099: '' PDB를 'Effects11d.lib(EffectLoad.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11d.lib(EffectReflection.obj) : warning LNK4099: '' PDB를 'Effects11d.lib(EffectReflection.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+Effects11d.lib(EffectRuntime.obj) : warning LNK4099: '' PDB를 'Effects11d.lib(EffectRuntime.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(BasicEffect.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(BasicEffect.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(PrimitiveBatch.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(PrimitiveBatch.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(VertexTypes.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(VertexTypes.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(DDSTextureLoader.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(DDSTextureLoader.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(WICTextureLoader.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(WICTextureLoader.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(EffectCommon.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(EffectCommon.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+DirectXTKd.lib(pch.obj) : warning LNK4099: '' PDB를 'DirectXTKd.lib(pch.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  Engine.vcxproj -> C:\Workspace\Git\Zelda_3D\Engine\Bin\Engine.dll
