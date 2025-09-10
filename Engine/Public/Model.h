@@ -66,30 +66,30 @@ public:
 	HRESULT Render(_uint iMeshIndex);
 	CHierarchyNode* Find_HierarchyNode(const char* pNodeName);
 
-private: // AssimpÀÇ Scene°´Ã¼
+private: // Assimpï¿½ï¿½ Sceneï¿½ï¿½Ã¼
 	const aiScene*			m_pScene = nullptr;
 	Assimp::Importer		m_Importer;
 	TYPE					m_eType = TYPE_END;
 
 private:
-	_bool	m_bIsFinished_Body = false; // »óÃ¼ ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ³¡³µ´ÂÁö È®ÀÎÇÏ±â À§ÇÑ º¯¼ö
-	_bool   m_bIsFinished_Waist = false; // ÇÏÃ¼ ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ³¡³µ´ÂÁö È®ÀÎÇÏ±â À§ÇÑ º¯¼ö
-	_bool	m_bIsFinished = false; // ¾Ö´Ï¸ÞÀÌ¼ÇÀÌ ³¡³µ´ÂÁö È®ÀÎÇÏ±â À§ÇÑ º¯¼ö
-	_bool   m_bLerpIsFinished = true; // ¾Ö´Ï¸ÞÀÌ¼Ç ±³Ã¼½Ã ¼±Çüº¸°£ÀÌ ³¡³µ´ÂÁö È®ÀÎÇÏ±â À§ÇÑ º¯¼ö
+	_bool	m_bIsFinished_Body = false; // ï¿½ï¿½Ã¼ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	_bool   m_bIsFinished_Waist = false; // ï¿½ï¿½Ã¼ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	_bool	m_bIsFinished = false; // ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	_bool   m_bLerpIsFinished = true; // ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 private:
 	_uint									m_iNumMeshes = 0;
 	vector<class CMeshContainer*>			m_Meshes;
 	typedef vector<class CMeshContainer*>	MESHES;
 
-private: // AnimationÀ» ÀúÀåÇÏ±â À§ÇÑ Vector
+private: // Animationï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ Vector
 	_uint m_iNumAnimations = 0;
 	_uint m_iCurrentAnimIndex = 0;
-	_uint m_iCurrentBodyAnimIndex = 0; // ÇöÀç »óÃ¼ ¾Ö´Ï¸ÞÀÌ¼Ç ÀÎµ¦½º
-	_uint m_iCurrentWaistAnimIndex = 0; // ÇöÀç ÇÏÃ¼ ¾Ö´Ï¸ÞÀÌ¼Ç ÀÎµ¦½º
+	_uint m_iCurrentBodyAnimIndex = 0; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Îµï¿½ï¿½ï¿½
+	_uint m_iCurrentWaistAnimIndex = 0; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ ï¿½Ö´Ï¸ï¿½ï¿½Ì¼ï¿½ ï¿½Îµï¿½ï¿½ï¿½
 	char m_szBodyBoneName[MAX_PATH] = "";
 	char m_szWaistBoneName[MAX_PATH] = "";
-	_uint m_iNextAnimIndex = 0; // ¼±Çüº¸°£ ÇÏ±âÀ§ÇÑ º¯¼ö
+	_uint m_iNextAnimIndex = 0; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	_bool m_bChangeAnim = false;
 	vector<class CAnimation*>   m_Animations;
 	typedef vector<class CAnimation*> ANIMATIONS;
@@ -98,9 +98,9 @@ private:
 	_float m_fTimeAcc = 0.f;
 	const _uint SEPARATE_BONE_DEPTH = 5;
 
-private: // HierarchyNode¸¦ ÀúÀåÇÏ±â À§ÇÑ º¤ÅÍ
-	vector<CHierarchyNode*> m_BodyHierarchyNodes; // »óÃ¼»À¸¦ ÀúÀåÇÏ±â À§ÇÑ º¤ÅÍ
-	vector<CHierarchyNode*> m_WaistHierarchyNodes; // ÇÏÃ¼ »À¸¦ ÀúÀåÇÏ±â À§ÇÑ º¤ÅÍ
+private: // HierarchyNodeï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	vector<CHierarchyNode*> m_BodyHierarchyNodes; // ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	vector<CHierarchyNode*> m_WaistHierarchyNodes; // ï¿½ï¿½Ã¼ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
 	vector<CHierarchyNode*>					m_HierarchyNodes;
 	typedef vector<CHierarchyNode*>			HIERARCHYNODES;
@@ -108,7 +108,7 @@ private: // HierarchyNode¸¦ ÀúÀåÇÏ±â À§ÇÑ º¤ÅÍ
 private:
 	_float4x4				m_PivotMatrix;
 
-private: // Texture¿¡ MaterialÀ» ÀúÀåÇÏ±â À§ÇÑ Vector
+private: // Textureï¿½ï¿½ Materialï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ Vector
 	_uint									m_iNumMaterials = 0;
 	vector<MODELMATERIAL>					m_Materials;
 	typedef vector<MODELMATERIAL>			MATERIALS;

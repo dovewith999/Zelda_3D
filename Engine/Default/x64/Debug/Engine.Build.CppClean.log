@@ -48,7 +48,13 @@ c:\workspace\git\zelda_3d\engine\default\x64\debug\vibuffer_pointinstance.obj
 c:\workspace\git\zelda_3d\engine\default\x64\debug\vibuffer_cube.obj
 c:\workspace\git\zelda_3d\engine\bin\shader_deferred.cso
 c:\workspace\git\zelda_3d\engine\bin\shader_navigation.cso
+c:\workspace\git\zelda_3d\engine\bin\engine.dll
+c:\workspace\git\zelda_3d\engine\bin\engine.pdb
+c:\workspace\git\zelda_3d\engine\bin\engine.lib
+c:\workspace\git\zelda_3d\engine\bin\engine.exp
+c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.ilk
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\cl.command.1.tlog
+c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\cl.items.tlog
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\cl.read.1.tlog
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\cl.write.1.tlog
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\fxc.command.1.tlog
@@ -56,4 +62,5 @@ c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\fxc.read.1.tlog
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\fxc.write.1.tlog
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\link.command.1.tlog
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\link.read.1.tlog
+c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\link.secondary.1.tlog
 c:\workspace\git\zelda_3d\engine\default\x64\debug\engine.tlog\link.write.1.tlog

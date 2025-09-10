@@ -1,4 +1,4 @@
-#include "stdafx.h"
+﻿#include "stdafx.h"
 #include "..\Public\Object_Door.h"
 #include "GameInstance.h"
 #include "Player.h"

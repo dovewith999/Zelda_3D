@@ -605,7 +605,7 @@ HRESULT CModel::Ready_Materials(const char* pModelFilePath)
 HRESULT CModel::Ready_HierarchyNode(aiNode * pNode, CHierarchyNode * pParent, _uint iDepth)
 {
 
-#pragma region ==Áß·«==
+#pragma region ==ï¿½ß·ï¿½==
 	_float4x4 TransformMatrix;
 	memcpy(&TransformMatrix, &pNode->mTransformation, sizeof(_float4x4));
 
@@ -635,7 +635,7 @@ HRESULT CModel::Ready_HierarchyNode(aiNode * pNode, CHierarchyNode * pParent, _u
 		}
 	}
 
-#pragma region ==Áß·«==
+#pragma region ==ï¿½ß·ï¿½==
 	m_HierarchyNodes.push_back(pHierarchyNode);
 #pragma endregion
 

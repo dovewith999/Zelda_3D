@@ -1,4 +1,4 @@
-#include "stdafx.h"
+ï»¿#include "stdafx.h"
 #include "..\Public\Level_Logo.h"
 #include "Loader.h"
 #include "GameInstance.h"
@@ -44,7 +44,7 @@ void CLevel_Logo::Tick(_float fTimeDelta)
 
 			pGameInstance->PlaySoundW(L"PressStart.wav", SOUND_EFFECT, 0.2f);
 
-			if (FAILED(pGameInstance->Open_Level(LEVEL_LOADING, CLevel_Loading::Create(m_pDevice, m_pDeviceContext, LEVEL_TOOL))))
+			if (FAILED(pGameInstance->Open_Level(LEVEL_LOADING, CLevel_Loading::Create(m_pDevice, m_pDeviceContext, LEVEL_DUNGEON))))
 				return;
 
 			Safe_Release(pGameInstance);
@@ -59,7 +59,7 @@ HRESULT CLevel_Logo::Render()
 	if (FAILED(__super::Render()))
 		return E_FAIL;
 
-	SetWindowText(g_hWnd, TEXT("·Î°í·¹º§ÀÓ."));
+	SetWindowText(g_hWnd, TEXT("ë¡œê³ ë ˆë²¨ìž„."));
 
 	return S_OK;
 }
